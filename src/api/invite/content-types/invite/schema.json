@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invites",
+  "info": {
+    "singularName": "invite",
+    "pluralName": "invites",
+    "displayName": "Invité",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Reponse": {
+      "type": "boolean",
+      "default": false
+    },
+    "Quand": {
+      "type": "enumeration",
+      "enum": [
+        "Journée",
+        "Matin & Soir",
+        "Matin"
+      ]
+    },
+    "Qui": {
+      "displayName": "Qui",
+      "type": "component",
+      "repeatable": true,
+      "component": "user.qui"
+    },
+    "Matin": {
+      "type": "component",
+      "repeatable": true,
+      "component": "user.qui"
+    },
+    "Midi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "user.qui"
+    },
+    "Soir": {
+      "type": "component",
+      "repeatable": true,
+      "component": "user.qui"
+    },
+    "Message": {
+      "type": "richtext"
+    },
+    "Allergies": {
+      "type": "richtext"
+    },
+    "Retour": {
+      "type": "component",
+      "repeatable": true,
+      "component": "user.qui"
+    }
+  }
+}
