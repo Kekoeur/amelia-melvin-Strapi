@@ -8,8 +8,9 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "Reponse": {
       "type": "boolean",
@@ -18,32 +19,31 @@
     "Quand": {
       "type": "enumeration",
       "enum": [
+        "Journée & Retour",
         "Journée",
         "Matin & Soir",
-        "Matin",
-        "Journée & Retour"
+        "Matin"
       ]
     },
     "Qui": {
-      "displayName": "Qui",
       "type": "component",
-      "repeatable": true,
-      "component": "user.qui"
+      "component": "user.qui",
+      "repeatable": true
     },
     "Matin": {
       "type": "component",
-      "repeatable": true,
-      "component": "user.qui"
+      "component": "user.qui",
+      "repeatable": true
     },
     "Midi": {
       "type": "component",
-      "repeatable": true,
-      "component": "user.qui"
+      "component": "user.qui",
+      "repeatable": true
     },
     "Soir": {
       "type": "component",
-      "repeatable": true,
-      "component": "user.qui"
+      "component": "user.qui",
+      "repeatable": true
     },
     "Message": {
       "type": "richtext"
@@ -53,8 +53,8 @@
     },
     "Retour": {
       "type": "component",
-      "repeatable": true,
-      "component": "user.qui"
+      "component": "user.qui",
+      "repeatable": true
     }
   }
 }

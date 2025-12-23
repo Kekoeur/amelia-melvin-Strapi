@@ -7,10 +7,14 @@
     "displayName": "Allergene"
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "Nom": {
+      "type": "string"
+    },
+    "Desc": {
       "type": "string"
     }
   }
