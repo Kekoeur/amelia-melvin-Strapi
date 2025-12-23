@@ -20,7 +20,8 @@
       "enum": [
         "Journée",
         "Matin & Soir",
-        "Matin"
+        "Matin",
+        "Journée & Retour"
       ]
     },
     "Qui": {
