@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_infos_trajets",
+  "info": {
+    "displayName": "Trajet"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "Logo": {
+      "type": "component",
+      "component": "media-image.media",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

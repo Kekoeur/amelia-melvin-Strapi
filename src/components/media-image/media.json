@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_media_image_media",
+  "info": {
+    "displayName": "Media",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "ImgTitle": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgAlt": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

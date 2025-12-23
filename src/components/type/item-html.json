@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_type_item_htmls",
+  "info": {
+    "displayName": "ItemHTML"
+  },
+  "options": {},
+  "attributes": {
+    "Nom": {
+      "type": "enumeration",
+      "enum": [
+        "titre-principal (h1)",
+        "sous-titre (h2)",
+        "titre-section (h3)",
+        "paragraphe (p)",
+        "lien-navigation (.nav-link)",
+        "titre-courbe (.heading-title-text)",
+        "bouton (.button)",
+        "dropdown (.dropdown-item)",
+        "texte-formulaire (.form-label)",
+        "badge-profil (.profile-name)"
+      ]
+    }
+  },
+  "config": {}
+}

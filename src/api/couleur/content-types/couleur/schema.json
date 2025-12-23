@@ -1,0 +1,14 @@
+{
+  "kind": "singleType",
+  "collectionName": "couleurs",
+  "info": {
+    "singularName": "couleur",
+    "pluralName": "couleurs",
+    "displayName": "Couleur"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

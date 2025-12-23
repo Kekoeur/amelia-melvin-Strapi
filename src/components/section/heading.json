@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_section_headings",
+  "info": {
+    "displayName": "Heading",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "component",
+      "component": "media-image.media",
+      "repeatable": false
+    },
+    "Logo": {
+      "type": "component",
+      "component": "media-image.media",
+      "repeatable": false
+    },
+    "Titre": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

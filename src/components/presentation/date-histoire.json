@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_presentation_date_histoires",
+  "info": {
+    "displayName": "DateHistoire"
+  },
+  "options": {},
+  "attributes": {
+    "Date": {
+      "type": "datetime"
+    },
+    "Titre": {
+      "type": "string"
+    },
+    "Lieu": {
+      "type": "string"
+    },
+    "Desc": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "component",
+      "component": "media-image.media",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

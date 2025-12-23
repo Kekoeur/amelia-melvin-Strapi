@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_section_histoires",
+  "info": {
+    "displayName": "Histoire"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Event": {
+      "type": "component",
+      "component": "presentation.date-histoire",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_couleur_couleur_pourcents",
+  "info": {
+    "displayName": "CouleurPourcent",
+    "icon": "paint"
+  },
+  "options": {},
+  "attributes": {
+    "Pourcent": {
+      "type": "integer",
+      "default": 100,
+      "min": 0,
+      "max": 100
+    },
+    "Couleur": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+    }
+  },
+  "config": {}
+}

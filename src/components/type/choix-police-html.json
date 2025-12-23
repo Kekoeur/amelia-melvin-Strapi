@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_type_choix_police_htmls",
+  "info": {
+    "displayName": "ChoixPoliceHTML"
+  },
+  "options": {},
+  "attributes": {
+    "Police": {
+      "type": "component",
+      "component": "type.police",
+      "repeatable": false
+    },
+    "Elements": {
+      "type": "component",
+      "component": "type.item-html",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

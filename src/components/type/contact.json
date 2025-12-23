@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_type_contacts",
+  "info": {
+    "displayName": "Contact"
+  },
+  "options": {},
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    },
+    "NumTel": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

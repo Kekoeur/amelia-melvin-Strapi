@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_type_police",
+  "info": {
+    "displayName": "Police"
+  },
+  "options": {},
+  "attributes": {
+    "Font": {
+      "type": "enumeration",
+      "enum": [
+        "Geist",
+        "Geist_Mono",
+        "josephSophia",
+        "lovely_melody",
+        "autography",
+        "billing_lottre",
+        "birds_of_paradise",
+        "brittany_signature",
+        "chetta_vissto",
+        "cronde",
+        "foremost",
+        "halimun",
+        "motterdam",
+        "sinera",
+        "velista",
+        "zestful_christmas"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_section_form_invites",
+  "info": {
+    "displayName": "FormInvite"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "DisplayInput": {
+      "type": "component",
+      "component": "type.input-invite",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

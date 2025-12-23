@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_presentation_presentations",
+  "info": {
+    "displayName": "Presentation"
+  },
+  "options": {},
+  "attributes": {
+    "Personne": {
+      "type": "string"
+    },
+    "ListeSurnom": {
+      "type": "component",
+      "component": "type.liste-string",
+      "repeatable": true
+    },
+    "ListLien": {
+      "type": "component",
+      "component": "type.liste-string",
+      "repeatable": true
+    },
+    "Profession": {
+      "type": "string"
+    },
+    "Presentation": {
+      "type": "blocks"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "marié1",
+        "mariée2",
+        "TémoinM1",
+        "TemoinM2",
+        "TémoinA1",
+        "TemoinA2",
+        "GarçonHonneurM",
+        "DemoiselleHonneurM",
+        "GarçonHonneurA",
+        "DemoiselleHonneurA",
+        "MaitreTemps"
+      ]
+    },
+    "ProfilPicture": {
+      "type": "component",
+      "component": "media-image.media",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

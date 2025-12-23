@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_couleur_linear_gradients",
+  "info": {
+    "displayName": "LinearGradient",
+    "icon": "paint"
+  },
+  "options": {},
+  "attributes": {
+    "DegreAngle": {
+      "type": "integer",
+      "min": 0,
+      "max": 360
+    },
+    "GradientCouleur": {
+      "type": "component",
+      "component": "couleur.couleur-pourcent",
+      "repeatable": true
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "color-stop",
+        "color-hint"
+      ]
+    }
+  },
+  "config": {}
+}

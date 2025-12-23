@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_type_input_invites",
+  "info": {
+    "displayName": "InputInvite"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string"
+    },
+    "InputType": {
+      "type": "enumeration",
+      "enum": [
+        "Nom",
+        "Matin",
+        "Midi",
+        "Soir",
+        "Retour",
+        "Allergies",
+        "Message"
+      ]
+    }
+  },
+  "config": {}
+}

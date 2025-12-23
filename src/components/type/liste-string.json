@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_type_liste_strings",
+  "info": {
+    "displayName": "ListeString"
+  },
+  "options": {},
+  "attributes": {
+    "Elt": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

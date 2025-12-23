@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_couleur_couleurs",
+  "info": {
+    "displayName": "Couleur",
+    "icon": "paint"
+  },
+  "options": {},
+  "attributes": {
+    "CouleurBasic": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+    }
+  },
+  "config": {}
+}

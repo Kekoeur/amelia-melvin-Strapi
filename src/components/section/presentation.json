@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_section_presentations",
+  "info": {
+    "displayName": "Presentation"
+  },
+  "options": {},
+  "attributes": {
+    "TitreMaries": {
+      "type": "string"
+    },
+    "Maries": {
+      "type": "component",
+      "component": "presentation.presentation",
+      "repeatable": true
+    },
+    "TitreTemoin": {
+      "type": "string"
+    },
+    "Temoins": {
+      "type": "component",
+      "component": "presentation.presentation",
+      "repeatable": true
+    },
+    "TitreHonneur": {
+      "type": "string"
+    },
+    "Honneur": {
+      "type": "component",
+      "component": "presentation.presentation",
+      "repeatable": true
+    },
+    "TitreMaitreTemps": {
+      "type": "string"
+    },
+    "MaitreTemps": {
+      "type": "component",
+      "component": "presentation.presentation",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}
