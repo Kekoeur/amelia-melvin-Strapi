@@ -17,6 +17,16 @@
     "Slug": {
       "type": "string"
     },
+    "Couleur": {
+      "type": "component",
+      "component": "couleur.couleur",
+      "repeatable": false
+    },
+    "MainTitle": {
+      "type": "component",
+      "component": "section.titre-text",
+      "repeatable": false
+    },
     "Section": {
       "type": "dynamiczone",
       "components": [

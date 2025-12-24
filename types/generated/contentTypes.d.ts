@@ -536,12 +536,14 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    Couleur: Schema.Attribute.Component<'couleur.couleur', false>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::page.page'> &
       Schema.Attribute.Private;
+    MainTitle: Schema.Attribute.Component<'section.titre-text', false>;
     Nom: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     Section: Schema.Attribute.DynamicZone<
