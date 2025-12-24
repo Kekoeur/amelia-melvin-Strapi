@@ -47,6 +47,11 @@
       "components": [
         "type.choix-police-html"
       ]
+    },
+    "Visible": {
+      "type": "component",
+      "component": "type.is-display",
+      "repeatable": false
     }
   }
 }
