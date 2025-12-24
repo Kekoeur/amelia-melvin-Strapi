@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_type_is_displays",
+  "info": {
+    "displayName": "IsDisplay"
+  },
+  "options": {},
+  "attributes": {
+    "Visibility": {
+      "type": "boolean"
+    },
+    "AlternatifText": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

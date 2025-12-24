@@ -270,6 +270,17 @@ export interface TypeInputInvite extends Struct.ComponentSchema {
   };
 }
 
+export interface TypeIsDisplay extends Struct.ComponentSchema {
+  collectionName: 'components_type_is_displays';
+  info: {
+    displayName: 'IsDisplay';
+  };
+  attributes: {
+    AlternatifText: Schema.Attribute.RichText;
+    Visibility: Schema.Attribute.Boolean;
+  };
+}
+
 export interface TypeItemHtml extends Struct.ComponentSchema {
   collectionName: 'components_type_item_htmls';
   info: {
@@ -377,6 +388,7 @@ declare module '@strapi/strapi' {
       'type.choix-police-html': TypeChoixPoliceHtml;
       'type.contact': TypeContact;
       'type.input-invite': TypeInputInvite;
+      'type.is-display': TypeIsDisplay;
       'type.item-html': TypeItemHtml;
       'type.list-contact': TypeListContact;
       'type.liste-string': TypeListeString;
