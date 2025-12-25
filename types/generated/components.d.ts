@@ -192,6 +192,7 @@ export interface SectionImageDivider extends Struct.ComponentSchema {
   };
   attributes: {
     Image: Schema.Attribute.Component<'media-image.media', false>;
+    isLast: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     Titre: Schema.Attribute.String;
   };
 }
