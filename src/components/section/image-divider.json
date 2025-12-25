@@ -12,6 +12,10 @@
       "type": "component",
       "component": "media-image.media",
       "repeatable": false
+    },
+    "isLast": {
+      "type": "boolean",
+      "default": false
     }
   },
   "config": {}
