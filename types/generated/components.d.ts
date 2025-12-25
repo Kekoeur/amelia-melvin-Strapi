@@ -126,6 +126,7 @@ export interface PresentationPresentation extends Struct.ComponentSchema {
     displayName: 'Presentation';
   };
   attributes: {
+    Image: Schema.Attribute.Component<'media-image.media', false>;
     ListeSurnom: Schema.Attribute.Component<'type.liste-string', true>;
     ListLien: Schema.Attribute.Component<'type.liste-string', true>;
     Personne: Schema.Attribute.String;
