@@ -44,6 +44,11 @@
       "type": "component",
       "component": "media-image.media",
       "repeatable": true
+    },
+    "Image": {
+      "type": "component",
+      "component": "media-image.media",
+      "repeatable": false
     }
   },
   "config": {}
