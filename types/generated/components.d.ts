@@ -126,7 +126,6 @@ export interface PresentationPresentation extends Struct.ComponentSchema {
     displayName: 'Presentation';
   };
   attributes: {
-    Image: Schema.Attribute.Component<'media-image.media', false>;
     ListeSurnom: Schema.Attribute.Component<'type.liste-string', true>;
     ListLien: Schema.Attribute.Component<'type.liste-string', true>;
     Personne: Schema.Attribute.String;
@@ -204,6 +203,10 @@ export interface SectionPresentation extends Struct.ComponentSchema {
   };
   attributes: {
     Honneur: Schema.Attribute.Component<'presentation.presentation', true>;
+    ImageHonneur: Schema.Attribute.Component<'media-image.media', false>;
+    ImageMaitreTemps: Schema.Attribute.Component<'media-image.media', false>;
+    ImageMaries: Schema.Attribute.Component<'media-image.media', false>;
+    ImageTemoins: Schema.Attribute.Component<'media-image.media', false>;
     MaitreTemps: Schema.Attribute.Component<'presentation.presentation', false>;
     Maries: Schema.Attribute.Component<'presentation.presentation', true>;
     Temoins: Schema.Attribute.Component<'presentation.presentation', true>;
