@@ -13,6 +13,11 @@
       "component": "presentation.presentation",
       "repeatable": true
     },
+    "ImageMaries": {
+      "type": "component",
+      "component": "media-image.media",
+      "repeatable": false
+    },
     "TitreTemoin": {
       "type": "string"
     },
@@ -20,6 +25,11 @@
       "type": "component",
       "component": "presentation.presentation",
       "repeatable": true
+    },
+    "ImageTemoins": {
+      "type": "component",
+      "component": "media-image.media",
+      "repeatable": false
     },
     "TitreHonneur": {
       "type": "string"
@@ -29,12 +39,22 @@
       "component": "presentation.presentation",
       "repeatable": true
     },
+    "ImageHonneur": {
+      "type": "component",
+      "component": "media-image.media",
+      "repeatable": false
+    },
     "TitreMaitreTemps": {
       "type": "string"
     },
     "MaitreTemps": {
       "type": "component",
       "component": "presentation.presentation",
+      "repeatable": false
+    },
+    "ImageMaitreTemps": {
+      "type": "component",
+      "component": "media-image.media",
       "repeatable": false
     }
   },
