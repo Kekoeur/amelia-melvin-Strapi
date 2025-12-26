@@ -76,8 +76,11 @@ export interface InfosLieu extends Struct.ComponentSchema {
   attributes: {
     Latitude: Schema.Attribute.String;
     Longitude: Schema.Attribute.String;
+    Photo: Schema.Attribute.Component<'media-image.media', true>;
     Plan: Schema.Attribute.Component<'media-image.media', false>;
     Titre: Schema.Attribute.String;
+    Topo: Schema.Attribute.Component<'media-image.media', false>;
+    Ville: Schema.Attribute.String;
   };
 }
 

@@ -18,6 +18,19 @@
     },
     "Latitude": {
       "type": "string"
+    },
+    "Ville": {
+      "type": "string"
+    },
+    "Photo": {
+      "type": "component",
+      "component": "media-image.media",
+      "repeatable": true
+    },
+    "Topo": {
+      "type": "component",
+      "component": "media-image.media",
+      "repeatable": false
     }
   },
   "config": {}
