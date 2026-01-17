@@ -68,6 +68,16 @@ export interface InfosContact extends Struct.ComponentSchema {
   };
 }
 
+export interface InfosDiapo extends Struct.ComponentSchema {
+  collectionName: 'components_infos_diapos';
+  info: {
+    displayName: 'Diapo';
+  };
+  attributes: {
+    LienDiapo: Schema.Attribute.String;
+  };
+}
+
 export interface InfosLieu extends Struct.ComponentSchema {
   collectionName: 'components_infos_lieus';
   info: {
@@ -81,6 +91,16 @@ export interface InfosLieu extends Struct.ComponentSchema {
     Titre: Schema.Attribute.String;
     Topo: Schema.Attribute.Component<'media-image.media', false>;
     Ville: Schema.Attribute.String;
+  };
+}
+
+export interface InfosTimer extends Struct.ComponentSchema {
+  collectionName: 'components_infos_timers';
+  info: {
+    displayName: 'Timer';
+  };
+  attributes: {
+    StartDate: Schema.Attribute.DateTime;
   };
 }
 
@@ -381,7 +401,9 @@ declare module '@strapi/strapi' {
       'couleur.couleur-pourcent': CouleurCouleurPourcent;
       'couleur.linear-gradient': CouleurLinearGradient;
       'infos.contact': InfosContact;
+      'infos.diapo': InfosDiapo;
       'infos.lieu': InfosLieu;
+      'infos.timer': InfosTimer;
       'infos.trajet': InfosTrajet;
       'media-image.media': MediaImageMedia;
       'presentation.date-histoire': PresentationDateHistoire;
