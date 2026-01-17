@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_infos_timers",
+  "info": {
+    "displayName": "Timer"
+  },
+  "options": {},
+  "attributes": {
+    "StartDate": {
+      "type": "datetime"
+    }
+  },
+  "config": {}
+}
