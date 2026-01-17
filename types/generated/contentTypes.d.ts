@@ -558,6 +558,8 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'section.titre-text',
         'section.section-date',
         'section.image-divider',
+        'infos.timer',
+        'infos.diapo',
       ]
     >;
     Slug: Schema.Attribute.String;
