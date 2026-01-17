@@ -39,7 +39,9 @@
         "infos.contact",
         "section.titre-text",
         "section.section-date",
-        "section.image-divider"
+        "section.image-divider",
+        "infos.timer",
+        "infos.diapo"
       ]
     },
     "Style": {
